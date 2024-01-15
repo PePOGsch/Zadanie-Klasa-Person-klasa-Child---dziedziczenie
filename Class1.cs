@@ -112,7 +112,7 @@ public class Child : Person
     public override string ToString()
     {
         string motherInfo = (mother != null) ? $"mother: {mother.ToString()}" : "mother: No data";
-        string fatherInfo = (father != null) ? $"father: {father.ToString()}" : "father: o data";
+        string fatherInfo = (father != null) ? $"father: {father.ToString()}" : "father: No data";
         return $"{base.ToString()}\n{motherInfo}\n{fatherInfo}";
        // return $"{FirstName} {FamilyName} ({Age})\nmother: {mother.ToString()}\nfather: {father.ToString()}";
     }
